@@ -15,7 +15,7 @@ int main() {
 
   if ( temperaturaPaciente > 37.5 ) {
     printf("Paciente deve ser encaminhado ao exame de sangue e urina.\n");
-  } else if ( temperaturaPaciente >= 35 && temperaturaPaciente <= 37.5 ) {
+  } else if ( temperaturaPaciente >= 35 ) {
     printf("Paciente deve ser encaminhado a consulta com clínico geral");
   } 
   
